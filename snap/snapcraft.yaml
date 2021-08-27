@@ -1,0 +1,17 @@
+---
+name: l33t-t00l
+base: core20
+summary: Special tool for doing extraordinary crimes.
+adopt-info: l33t-t00l
+description: |
+  Magical tool for doing magical crimes.
+grade: stable
+confinement: classic
+apps:
+  l33t-t00l:
+    command: bin/l33t-t00l
+parts:
+  l33t-t00l:
+    plugin: python
+    source: .
+    source-type: git

@@ -1,0 +1,33 @@
+*~
+
+# distutils cruft
+.tox/
+dist/
+tests/report/
+
+# python artefacts
+__pycache__
+*.pyc
+.eggs
+*.egg-info
+
+# test artefacts
+tests/report
+.coverage
+
+# debuild cruft
+debian/files
+
+# snapcraft cruft
+*.snap
+parts/
+prime/
+snap/.snapcraft/
+stage/
+
+# runtime
+output/
+
+# emacs
+*~
+\#*

@@ -1,0 +1,12 @@
+# Module requirements
+flake8
+flake8-colors
+flake8-docstrings
+flake8-html
+mock
+pep8-naming
+pycodestyle
+pyflakes
+pytest
+pytest-cov
+pytest-html

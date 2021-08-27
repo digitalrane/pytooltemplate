@@ -1,0 +1,8 @@
+---
+# this file holds the default config schema, as well as default values
+# it can be extended however you like and will be used automatically by the tool
+# you can configure CLI argumetn overrides for these keys too
+
+logging:
+  level: INFO
+  file: tool.log

@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "pytooltemplate"
+version = "0.1.0"
+description = "A template project for building python tools"
+authors = ["James Hebden <james@tachibana.systems>"]
+license = "GPLv3"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+attrs = "*"
+colorlog = "*"
+confuse = "*"
+fabric2 = "*"
+setuptools = "*"
+PyYAML = "*"
+
+[tool.poetry.dev-dependencies]
+flake8 = "*"
+flake8-colors = "*"
+flake8-docstrings = "*"
+flake8-html = "*"
+mock = "*"
+pep8-naming = "*"
+pycodestyle = "*"
+pyflakes = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-html = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
